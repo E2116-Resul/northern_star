@@ -1,0 +1,86 @@
+.api-item {
+  background: #fff;
+  //   border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 10px rgba(76, 141, 235, 0.10077);
+  position: relative;
+  min-height: 175px;
+  overflow: hidden;
+  width: 301px;
+  border-top: 3px solid #5fbce3;
+
+  // margin: 30px;
+  .rectangle {
+    width: 301px;
+    height: 3px;
+  }
+  .item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h4 {
+      font-family: "Mulish", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      color: #405169;
+    }
+
+    // svg {
+    //   font-size: 19px;
+    //   color: #a0bce4;
+    // }
+  }
+  .item-info {
+    background-color: #f9faff;
+    bottom: 0;
+    left: 0;
+    max-height: 82px;
+    // background: #f9fbfc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    .blance {
+      display: flex;
+      flex-direction: column;
+      .number {
+        font-family: "Mulish", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #405169;
+        margin-top: 5px;
+      }
+
+      .text {
+        font-family: "Mulish", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #405169;
+      }
+    }
+  }
+}
+
+// background: #7693FF;
+
+// background: #CC58FF;
+
+// background: #FA867F;
+// background: #9EC84D;
+// background: #E35F67;
+// background: #FF9458;
+// background: #9A7FFA;
+// background: #5FBCE3;
