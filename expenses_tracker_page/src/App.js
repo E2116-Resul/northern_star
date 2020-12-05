@@ -1,18 +1,13 @@
 import { SearchBar } from "./components/searchbar/SearchBar";
 
-import Item from "./components/item/Item";
-import data from "./data/index";
 import "./App.css";
+import CardList from "./components/item/CardList";
 
 function App() {
   return (
     <>
       <SearchBar />
-      <div className="card-list">
-        {data?.map((item) => (
-          <Item key={item.id} item={item} />
-        ))}
-      </div>
+      <CardList />
     </>
   );
 }
