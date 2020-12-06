@@ -11,7 +11,7 @@
   position: relative;
   min-height: 175px;
   overflow: hidden;
-  width: 301px;
+  width: 261px;
   border-top: 3px solid #5fbce3;
 
   // margin: 30px;
@@ -72,6 +72,17 @@
       }
     }
   }
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1306px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+  margin-left: 80px;
 }
 
 // background: #7693FF;
