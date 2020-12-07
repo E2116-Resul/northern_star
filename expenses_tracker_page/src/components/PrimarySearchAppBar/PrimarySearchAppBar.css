@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu-container {
+    position: absolute;
+    width: 1371px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background-color: royalblue;
+
+}
+
+.MuiToolbar-root {
+    background-color: white;
+    color:#A0BCE4;
+}
+.makeStyles-search-4 {
+    margin-left: 50px;
+}
+.MuiBadge-colorSecondary {
+    background-color: #36d09e;
+}
+.MuiBadge-badge.MuiBadge-anchorOriginTopRightRectangle.MuiBadge-colorSecondary {
+    
+    background-color: #36d09e;
+}
