@@ -1,0 +1,31 @@
+.customer-container {
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    left: 77px;
+    top: 102px;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #405169;
+}
+.add-button {
+    position: absolute;
+    width: 115px;
+    height: 40px;
+    left: 1355px;
+    top: 100px;
+    background-color: #4c8aec;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    border: 1px, solid, white;
+}
+
+
+
+
